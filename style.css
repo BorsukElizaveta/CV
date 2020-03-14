@@ -1,0 +1,133 @@
+
+body {
+  font-family: Roboto, arial, sans-serif;
+  margin: 2em;
+  color: #363637;
+  font-size: 16px;
+  width: 1000px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #363637;
+  margin-top: 28px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.first {
+  margin-top: 4px;
+}
+
+dd {
+  padding: 0;
+  margin-inline-start: 0px;
+}
+
+dt {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+ul {
+  margin-top: 4px;
+}
+
+.content {
+  display: flex;
+}
+
+.top {
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 250px;
+  padding: 28px;
+  text-align: center;
+  background: #363637;
+}
+
+.name {
+  width: 500px;
+  background: #F5F5F5;
+  padding: 24px 28px;
+}
+.name p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.left {
+  width: 250px;
+  padding: 0 28px 28px 28px;
+  background: #363637;
+  color: #F5F5F5;
+}
+
+.left h2 {
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.left ul {
+  padding: 0 0 0 28px;
+}
+
+.contact{
+  width: 250px;
+}
+
+.tel {
+  list-style-image: url(https://cdn.glitch.com/a871f304-8ed1-4a52-ad40-25eadfc27166%2FGroup%207.png?v=1582931297130);
+}
+
+.place{
+  list-style-image: url(https://cdn.glitch.com/a871f304-8ed1-4a52-ad40-25eadfc27166%2FGroup%205.png?v=1582931296986);
+}
+
+.mail{
+  list-style-image: url(https://cdn.glitch.com/a871f304-8ed1-4a52-ad40-25eadfc27166%2FGroup%206.png?v=1582931297172);
+}
+
+.right {
+  width: 500px;
+  padding: 0 28px 28px 28px;
+}
+
+.experience p{
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.experience ul{
+  margin-bottom: 28px;
+}
+
+.experience span{
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 28px;
+}
